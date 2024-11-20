@@ -8,8 +8,7 @@ on:
     branches: [ "main" ]
   workflow_dispatch:
   schedule:
-    - cron: "*/5 * * * *"  # Runs every 5 minutes
-    - cron: "0 15 * * 0"   # Runs every Sunday at 3:00pm UTC
+    - cron: "*/2 * * * *"  # Runs every 2 minutes
 
 jobs:
   build:
